@@ -1,4 +1,4 @@
-# djangowithdbs
+## Every bit of content writter in this .md file was extracted by IBM course as BackEnd Developer and serves the only purpose of knowledge through this module
 
 This content was extracted from coursera's IMB Django course
 What is data? 
