@@ -111,7 +111,7 @@ DELETE FROM * when ****
 
 Syntax:
 
-ALTER TABLE table_name
+ALTER TABLE agents
     ADD COLUMN telephone_number BIGINT;
     ALTER COLUMN telephone_number SET DATA TYPE CHAR(20);
     DROP COLUMN telephone_number;
@@ -131,3 +131,16 @@ allows for eliminating the data in a table without touching the table itself
 
 TRUNCATE TABLE table_name
     IMMEDIATE; 
+
+<_________________________________________________________________________>
+
+* ORDER BY: Sorting result set:
+
+we add the ORDER BY clause to the select statement
+
+SELECT title FROM Book ORDER BY title 
+SELECT title, pages FROM Book ORDER BY 2 -> will order pages
+
+<_________________________________________________________________________>
+
+* JOIN operator:
